@@ -116,7 +116,7 @@ public class Program {
   }
 
   /**
-   * Метод обработки массива Ошибки в логике программы, необнаружимые на этапе компиляции
+   * Метод обработки массива Ошибки в логике программы, не обнаружимые на этапе компиляции
    * (RuntimeException)
    *
    * @param arr двумерный массив
@@ -227,7 +227,7 @@ public class Program {
 
   static void task5() {
     try {
-      int[] res = getSumArray(new int[]{1, -2, 9, 1, 6}, new int[]{5, 2, 0, 1});
+      int[] res = getSumArray(new int[]{1, -2, 9, 1}, new int[]{5, 2, 0, 1});
       for (int e : res) {
         System.out.printf("%d\t", e);
       }
