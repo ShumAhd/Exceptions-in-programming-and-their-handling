@@ -6,6 +6,8 @@
 ## [Исключения в программировании и их обработка (семинары)](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/tree/main/seminars)
 ### [Урок 1. Обработка ошибок в программировании](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/tree/main/seminars/Lesson_1ErrorHandling_inProgramming/src/main/java/ru/geekbrains)
 - [Program.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_1ErrorHandling_inProgramming/src/main/java/ru/geekbrains/Program.java)
+  
+  Классная работа
 #### [Домашняя работа к уроку 1](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/tree/main/seminars/Lesson_1ErrorHandling_inProgramming/HW1)
 
 - [HomeWork_Diff.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_1ErrorHandling_inProgramming/HW1/HomeWork_Diff.java)
