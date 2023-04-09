@@ -7,8 +7,9 @@
 
 - [AppLication.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/lectures/Lesson_2ExceptionsAndTheirHandling/AppLication.java)
 
-  Код из лекции урока 2, с добовлением меню и небольшим извращением)
-  Привер ввыода в терминал
+  Код из лекции урока 2, с добавлением меню и небольшим извращением)
+  
+  Пример вывода в терминал
 
 ```
  Cпециально создаём разные ошибки для вызова исключений
