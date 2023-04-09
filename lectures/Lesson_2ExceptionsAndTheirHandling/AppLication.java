@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 
 public class AppLication {
 
@@ -14,12 +15,46 @@ public class AppLication {
    * @param args
    */
   public static void main(String[] args) {
-    //пустойОбъект(); //Вызываем исключение NullPointerException
-    //типКлассаДругой(); //Вызываем исключение ClassCastException
-    //строкаКчислу(); //Вызываем NumberFormatException
-    //пустойЛист(); //Вызываем UnsupportedOperationException
-    //перехватОбработка(); //несколько отдельных исключений
-    чтениеФайла(); // Чтение файла, и finally
+    Scanner сканер = new Scanner(System.in);
+    //RBTree rbt = new RBTree(Integer.MIN_VALUE);
+    char ч;
+    do {
+      System.out.println("\nСпециально создаём разные ошибки для вызова исключений\n");
+      System.out.println("1. NullPointerException (Пустой Объект)");
+      System.out.println("2. ClassCastException (Другой тип класса)");
+      System.out.println("3. NumberFormatException (Строка как число)");
+      System.out.println("4. UnsupportedOperationException (Добавление в лист)");
+      System.out.println("5. Try-catch (Перехват и обработка)");
+      System.out.println("6. Чтение файла (Try-catch и finally)");
+
+      int choice = сканер.nextInt();
+      switch (choice) {
+        case 1:
+          пустойОбъект(); //Вызываем исключение NullPointerException
+          break;
+        case 2:
+          типКлассаДругой(); //Вызываем исключение ClassCastException
+          break;
+        case 3:
+          строкаКчислу(); //Вызываем NumberFormatException
+          break;
+        case 4:
+          пустойЛист(); //Вызываем UnsupportedOperationException
+          break;
+        case 5:
+          перехватОбработка(); //несколько отдельных исключений
+          break;
+        case 6:
+          чтениеФайла(); // Чтение файла, и finally
+          break;
+        default:
+          System.out.println("Неверный ввод \n ");
+          break;
+      }
+      System.out.println("\nВы хотите продолжить? (введите д или н) \n");
+      ч = сканер.next().charAt(0);
+    } while (ч == 'Д' || ч == 'д');
+
   }
 
   /**
@@ -90,9 +125,8 @@ public class AppLication {
   }
 
   /**
-   * Исключение при чтении файла
-   * 1. Возможность записи нескольких исключений в один catch
-   * 2. finally - даже если произошло исключение, всё равно продолжаем выполнять
+   * Исключение при чтении файла 1. Возможность записи нескольких исключений в один catch 2. finally
+   * - даже если произошло исключение, всё равно продолжаем выполнять
    */
   static void чтениеФайла() {
     FileReader тест = null;
