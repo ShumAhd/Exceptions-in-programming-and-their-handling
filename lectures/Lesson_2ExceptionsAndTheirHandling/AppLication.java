@@ -14,7 +14,8 @@ public class AppLication {
     //пустойОбъект(); //Вызываем исключение NullPointerException
     //типКлассаДругой(); //Вызываем исключение ClassCastException
     //строкаКчислу(); //Вызываем NumberFormatException
-    пустойЛист(); //Вызываем UnsupportedOperationException
+    //пустойЛист(); //Вызываем UnsupportedOperationException
+    перехватОбработка(); //несколько отдельных исключений
   }
 
   /**
@@ -52,11 +53,40 @@ public class AppLication {
   /**
    * Пытаемся добавить в недобовляемый список данные
    * 1. Создаём не добовляемый список
-   * 2. Добовляем в список
+   * 2. Добавляем в список
    * UnsupportedOperationException - указанной операции не существует
    */
   static void пустойЛист(){
     List<Object> пустойЛист = Collections.emptyList();
     пустойЛист.add(new Object());
+  }
+
+  /**
+   * Используем try-catch, поиск ошибки и перехват
+   * try - сюда вставляем код в котором возможна потенциальная ошибка
+   * catch - тут происходит перехват исключения с целью обработки
+   * 1. Если, разделить на ноль, то перехватим ошибку и вернём "номер" не обновится
+   * и вернёт = 1, то есть продолжим работу, без падения программы.
+   * 2. Если, ошибки в try нет, то catch не исполняется, пропускается.
+   * 3. И будет ловить следующую ошибку в файл = null -> файл.length()
+   * 4. Следующая ошибка в add emptyList и если для неё не прописан конкретный перехват,
+   * то можно поставить перехват уровнем выше, то есть Exception.
+   * 5. Уровень выше всегда должен стоять ниже, уровня ниже)
+   */
+  static void перехватОбработка(){
+    int номер = 1;
+    try {
+      номер = 10/0;
+      String файл = null;
+      //System.out.println(файл.length());
+      Collections.emptyList().add(new Object());
+    } catch (ArithmeticException e){
+      System.out.println("Делить на ноль нельзя!!!");
+    } catch (NullPointerException е){
+      System.out.println("Файла не существует!!!");
+    }catch (Exception e){
+      System.out.println("Все исключения!!!");
+    }
+    System.out.println(номер);
   }
 }
