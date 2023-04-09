@@ -62,14 +62,14 @@ public class Program {
           System.out.println();
         }
 
-        int codeResult = processArray(array, searchNumber);
-        switch (codeResult) {
+        int coderesult = processArray(array, searchNumber);
+        switch (coderesult) {
           case -1 -> System.out.println("Длина массива менее трех элементов.");
           case -2 -> System.out.println("Элемент не найден.");
           case -3 -> System.out.println("Массив некорректно проинициализирован.");
           default -> {
             System.out.println("Массив успешно обработан. Завершение работы приложения.");
-            System.out.printf("Элемент найден по индексу: %d\n", codeResult);
+            System.out.printf("Элемент найден по индексу: %d\n", coderesult);
             return;
           }
         }
@@ -93,12 +93,12 @@ public class Program {
       System.out.printf("%d\t", e);
     }
     System.out.println();
-    int searchRes = Arrays.binarySearch(arr, searchNumber);
-      if (searchRes < 0) {
+    int searchres = Arrays.binarySearch(arr, searchNumber);
+      if (searchres < 0) {
           return -2; // Элемент не найден
       }
 
-    return searchRes;
+    return searchres;
   }
 
   /**

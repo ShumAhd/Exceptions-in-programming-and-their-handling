@@ -17,14 +17,14 @@ public class HomeWork_Diff {
     try {
       int[] res = getDiffArray(new int[]{1, -2, 9, 1, 4}, new int[]{5, 2, 0, 1});
       System.out.println("Разность элементов двух массивов");
-      for (int e : res) {
-        System.out.printf("%d\t", e);
+      for (int е : res) {
+        System.out.printf("%d\t", е);
       }
       System.out.println();
-    } catch (CustomArraySizeException e) {
-      System.out.println(e.getMessage());
-      System.out.printf("Длина первого массива: %d\nДлина второго массива: %d\n", e.getLength1(),
-          e.getLength2());
+    } catch (CustomArraySizeException а) {
+      System.out.println(а.getMessage());
+      System.out.printf("Длина первого массива: %d\nДлина второго массива: %d\n", а.getLength1(),
+          а.getLength2());
     }
   }
 
