@@ -1,4 +1,5 @@
-# Исключения в программировании и их обработка
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&pause=1000&width=1100&height=70&lines=%D0%98%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F+%D0%B2+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8++%D0%B8+%D0%B8%D1%85+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0)](https://git.io/typing-svg)
 
 ## [Исключения в программировании и их обработка (лекции)](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/tree/main/lectures)
 [Урок 1. Обработка ошибок в программировании](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/tree/main/lectures/Lesson_1ErrorHandlingInProgramming)
