@@ -43,6 +43,20 @@ Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String
 
     Реализуйте метод, принимающий в качестве аргументов два целочисленных массива, и возвращающий новый массив, каждый элемент которого равен частному элементов двух входящих массивов в той же ячейке. Если длины массивов не равны, необходимо как-то оповестить пользователя. Важно: При выполнении метода единственное исключение, которое пользователь может увидеть - RuntimeException, т.е. ваше.
 
+### [Урок 2. Исключения и их обработка](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/tree/main/seminars/Lesson_2ExceptionsAndTheirHandling)
+
+- [Program.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_2ExceptionsAndTheirHandling/src/main/java/ru/geekbrains/lesson2/Program.java)
+  Классная работа
+
+### Домашняя работа к семинару 2
+
+Реализуйте метод, который запрашивает у пользователя ввод дробного числа (типа float), и возвращает введенное значение. Ввод текста вместо числа не должно приводить к падению приложения, вместо этого, необходимо повторно запросить у пользователя ввод данных.
+2. Если необходимо, исправьте данный код (задание 2 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit)
+
+Дан следующий код, исправьте его там, где требуется (задание 3 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit)
+
+Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку. Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
+
 
 
 
