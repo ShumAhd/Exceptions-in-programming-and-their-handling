@@ -50,6 +50,8 @@ Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String
 
 ### Домашняя работа к семинару 2
 
+	[HW2.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_2ExceptionsAndTheirHandling/src/main/java/ru/geekbrains/lesson2/HW2.java)
+
   1. Реализуйте метод, который запрашивает у пользователя ввод дробного числа (типа float), и возвращает введенное значение. Ввод текста вместо числа не должно приводить к падению приложения, вместо этого, необходимо повторно запросить у пользователя ввод данных.
 
   2. Если необходимо, исправьте данный код (задание 2 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit)
