@@ -60,7 +60,16 @@ Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String
 
 Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку. Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
 
+### [Урок 3. Продвинутая работа с исключениями в Java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/tree/main/seminars/Lesson_3AdvancedWorkWithExceptionsInJava)
 
+- [Task0.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_3AdvancedWorkWithExceptionsInJava/Task0.java)
+- [Task1.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_3AdvancedWorkWithExceptionsInJava/Task1.java)
+- [Task2.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_3AdvancedWorkWithExceptionsInJava/Task2.java)
+- [Task3.java](https://github.com/ShumAhd/Exceptions-in-programming-and-their-handling/blob/main/seminars/Lesson_3AdvancedWorkWithExceptionsInJava/Task3.java)
+
+### Домашняя работа к уроку 3
+
+[HW3.java]()
 
 
 
